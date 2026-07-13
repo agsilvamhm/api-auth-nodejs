@@ -1,0 +1,13 @@
+{  
+  "compilerOptions": {
+    "target": "es2022",                          /* Versão do JS de saída */
+    "module": "commonjs",                        /* Sistema de módulos */
+    "rootDir": "./src",                          /* Onde está seu código fonte */
+    "outDir": "./dist",                          /* Onde o código compilado vai cair */
+    "esModuleInterop": true,                      /* Melhora compatibilidade de imports */
+    "forceConsistentCasingInFileNames": true,            /* Evita problemas de maiúsculas/minúsculas */
+    "strict": true,                              /* Ativa validações estritas do TS */
+    "skipLibCheck": true                         /* Ignora checagem de tipos das node_modules */
+  },
+  "include": ["src/**/*"]                        /* Monitora tudo dentro de src */
+}
